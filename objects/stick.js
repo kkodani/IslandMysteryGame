@@ -78,7 +78,7 @@ Stick.prototype.draw = function(dt, mat) {
 }
 
 Stick.prototype.checkCollision = function(pos, radius) {
-	var stickRadius = this.mainbody.scale[0] * 1.5;
+	var stickRadius = this.mainbody.scale[0] * 2.0;
 
 	var dist = subtract(pos, this.mainbody.position);
 	var distSq = 0;
